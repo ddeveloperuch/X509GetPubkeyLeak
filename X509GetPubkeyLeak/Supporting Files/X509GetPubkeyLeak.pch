@@ -1,0 +1,15 @@
+//
+//  X509GetPubkeyLeak.pch
+//  X509GetPubkeyLeak
+//
+//  Created by Developer on 7/24/15.
+//  Copyright (c) 2015 Developer. All rights reserved.
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+
+    #include <openssl/ec.h>
+    #include <openssl/rand.h>
+    #include <openssl/x509v3.h>
+#endif
